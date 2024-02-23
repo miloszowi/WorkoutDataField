@@ -16,9 +16,6 @@ class WorkoutNoteProvider {
         var currentLine = "";
 
         for (var i = 1; i < splitedNote.size(); i++) {
-            System.println("Current index: " + i + " and currentLine: " + currentLine);
-            System.println("Current lines: " + noteLines);
-
             if (splitedNote[i].toString().equals(getNewLineIndicator())) {
                 noteLines.add(currentLine);
                 currentLine = "";
@@ -33,7 +30,6 @@ class WorkoutNoteProvider {
             }
         }
         
-        System.println(noteLines);
         var myFormat = "";
 
         for (var i = 1; i <= noteLines.size(); i++) {
