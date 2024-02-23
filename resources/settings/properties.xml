@@ -1,0 +1,5 @@
+<properties>
+    <property id="appVersion" type="string">1.0.0</property>
+    <property id="workoutNote" type="string">-first line-second line</property>
+    <property id="newLineIndicator" type="string">-</property>
+</properties>

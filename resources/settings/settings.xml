@@ -1,0 +1,8 @@
+<settings>
+    <setting propertyKey="@Properties.workoutNote" title="@Strings.workoutNote">
+        <settingConfig type="alphaNumeric"></settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.newLineIndicator" title="@Strings.newLineIndicator">
+        <settingConfig type="alphaNumeric"></settingConfig>
+    </setting>
+</settings>
