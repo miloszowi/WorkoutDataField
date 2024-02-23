@@ -1,3 +1,5 @@
+![Logo](docs/logo.png)
+
 # Workout Note data field
 
 Enhance your workout experience with the customizable workout note data field.
